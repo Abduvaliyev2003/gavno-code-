@@ -1,0 +1,2556 @@
+============[Date]============
+[ 2023-11-28 09:09:18  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		429
+description:		Too Many Requests: retry after 1
+parameters:		Array
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309630
+ref.message.message_id= 260
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701151543
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.url= https://46bf-178-218-201-167.ngrok-free.app/index.php
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(768): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(8): Telegram->setWebhook()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 09:35:24  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309647
+ref.callback_query.id= 4182726725115808522
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 290
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701153271
+ref.callback_query.message.edit_date= 1701153321
+ref.callback_query.message.photo.0.file_id= AgACAgQAAxkDAAIBImVliikkfzsUOI4FPQsqt0q5dF-CAAOyMRtJ5CxT8hIu-ZoJXOsBAAMCAANzAAMzBA
+ref.callback_query.message.photo.0.file_unique_id= AQAEsjEbSeQsU3g
+ref.callback_query.message.photo.0.file_size= 2017
+ref.callback_query.message.photo.0.width= 90
+ref.callback_query.message.photo.0.height= 60
+ref.callback_query.message.photo.1.file_id= AgACAgQAAxkDAAIBImVliikkfzsUOI4FPQsqt0q5dF-CAAOyMRtJ5CxT8hIu-ZoJXOsBAAMCAANtAAMzBA
+ref.callback_query.message.photo.1.file_unique_id= AQAEsjEbSeQsU3I
+ref.callback_query.message.photo.1.file_size= 33070
+ref.callback_query.message.photo.1.width= 320
+ref.callback_query.message.photo.1.height= 213
+ref.callback_query.message.photo.2.file_id= AgACAgQAAxkDAAIBImVliikkfzsUOI4FPQsqt0q5dF-CAAOyMRtJ5CxT8hIu-ZoJXOsBAAMCAAN4AAMzBA
+ref.callback_query.message.photo.2.file_unique_id= AQAEsjEbSeQsU30
+ref.callback_query.message.photo.2.file_size= 145052
+ref.callback_query.message.photo.2.width= 800
+ref.callback_query.message.photo.2.height= 533
+ref.callback_query.message.photo.3.file_id= AgACAgQAAxkDAAIBImVliikkfzsUOI4FPQsqt0q5dF-CAAOyMRtJ5CxT8hIu-ZoJXOsBAAMCAAN5AAMzBA
+ref.callback_query.message.photo.3.file_unique_id= AQAEsjEbSeQsU34
+ref.callback_query.message.photo.3.file_size= 303177
+ref.callback_query.message.photo.3.width= 1280
+ref.callback_query.message.photo.3.height= 853
+ref.callback_query.message.photo.4.file_id= AgACAgQAAxkDAAIBImVliikkfzsUOI4FPQsqt0q5dF-CAAOyMRtJ5CxT8hIu-ZoJXOsBAAMCAAN3AAMzBA
+ref.callback_query.message.photo.4.file_unique_id= AQAEsjEbSeQsU3w
+ref.callback_query.message.photo.4.file_size= 308284
+ref.callback_query.message.photo.4.width= 1440
+ref.callback_query.message.photo.4.height= 960
+ref.callback_query.message.caption= sasdas
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= -
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= minus1
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= 2
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= clickss
+ref.callback_query.message.reply_markup.inline_keyboard.0.2.text= +
+ref.callback_query.message.reply_markup.inline_keyboard.0.2.callback_data= plus1
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= 📥 Savat
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= karzina1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= plus1
+
+
+[ref]
+ref.message_id= 290
+ref.caption= sasdas
+ref.reply_markup= {"inline_keyboard":[[{"text":"-","callback_data":"minus1"},{"text":2,"callback_data":"clickss"},{"text":"+","callback_data":"plus1"}],[{"text":"\ud83d\udce5 Savat","callback_data":"karzina1"}]]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(186): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(30): Controller->counter()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 09:35:42  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309650
+ref.callback_query.id= 4182726724671635975
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 290
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701153271
+ref.callback_query.message.edit_date= 1701153339
+ref.callback_query.message.photo.0.file_id= AgACAgQAAxkDAAIBImVliikkfzsUOI4FPQsqt0q5dF-CAAOyMRtJ5CxT8hIu-ZoJXOsBAAMCAANzAAMzBA
+ref.callback_query.message.photo.0.file_unique_id= AQAEsjEbSeQsU3g
+ref.callback_query.message.photo.0.file_size= 2017
+ref.callback_query.message.photo.0.width= 90
+ref.callback_query.message.photo.0.height= 60
+ref.callback_query.message.photo.1.file_id= AgACAgQAAxkDAAIBImVliikkfzsUOI4FPQsqt0q5dF-CAAOyMRtJ5CxT8hIu-ZoJXOsBAAMCAANtAAMzBA
+ref.callback_query.message.photo.1.file_unique_id= AQAEsjEbSeQsU3I
+ref.callback_query.message.photo.1.file_size= 33070
+ref.callback_query.message.photo.1.width= 320
+ref.callback_query.message.photo.1.height= 213
+ref.callback_query.message.photo.2.file_id= AgACAgQAAxkDAAIBImVliikkfzsUOI4FPQsqt0q5dF-CAAOyMRtJ5CxT8hIu-ZoJXOsBAAMCAAN4AAMzBA
+ref.callback_query.message.photo.2.file_unique_id= AQAEsjEbSeQsU30
+ref.callback_query.message.photo.2.file_size= 145052
+ref.callback_query.message.photo.2.width= 800
+ref.callback_query.message.photo.2.height= 533
+ref.callback_query.message.photo.3.file_id= AgACAgQAAxkDAAIBImVliikkfzsUOI4FPQsqt0q5dF-CAAOyMRtJ5CxT8hIu-ZoJXOsBAAMCAAN5AAMzBA
+ref.callback_query.message.photo.3.file_unique_id= AQAEsjEbSeQsU34
+ref.callback_query.message.photo.3.file_size= 303177
+ref.callback_query.message.photo.3.width= 1280
+ref.callback_query.message.photo.3.height= 853
+ref.callback_query.message.photo.4.file_id= AgACAgQAAxkDAAIBImVliikkfzsUOI4FPQsqt0q5dF-CAAOyMRtJ5CxT8hIu-ZoJXOsBAAMCAAN3AAMzBA
+ref.callback_query.message.photo.4.file_unique_id= AQAEsjEbSeQsU3w
+ref.callback_query.message.photo.4.file_size= 308284
+ref.callback_query.message.photo.4.width= 1440
+ref.callback_query.message.photo.4.height= 960
+ref.callback_query.message.caption= sasdas
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= -
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= minus1
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= 2
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= clickss
+ref.callback_query.message.reply_markup.inline_keyboard.0.2.text= +
+ref.callback_query.message.reply_markup.inline_keyboard.0.2.callback_data= plus1
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= 📥 Savat
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= karzina1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= plus1
+
+
+[ref]
+ref.message_id= 290
+ref.caption= sasdas
+ref.reply_markup= {"inline_keyboard":[[{"text":"-","callback_data":"minus1"},{"text":2,"callback_data":"clickss"},{"text":"+","callback_data":"plus1"}],[{"text":"\ud83d\udce5 Savat","callback_data":"karzina1"}]]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(186): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(30): Controller->counter()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 09:37:08  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309651
+ref.callback_query.id= 4182726723273936480
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 290
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701153271
+ref.callback_query.message.edit_date= 1701153339
+ref.callback_query.message.photo.0.file_id= AgACAgQAAxkDAAIBImVliikkfzsUOI4FPQsqt0q5dF-CAAOyMRtJ5CxT8hIu-ZoJXOsBAAMCAANzAAMzBA
+ref.callback_query.message.photo.0.file_unique_id= AQAEsjEbSeQsU3g
+ref.callback_query.message.photo.0.file_size= 2017
+ref.callback_query.message.photo.0.width= 90
+ref.callback_query.message.photo.0.height= 60
+ref.callback_query.message.photo.1.file_id= AgACAgQAAxkDAAIBImVliikkfzsUOI4FPQsqt0q5dF-CAAOyMRtJ5CxT8hIu-ZoJXOsBAAMCAANtAAMzBA
+ref.callback_query.message.photo.1.file_unique_id= AQAEsjEbSeQsU3I
+ref.callback_query.message.photo.1.file_size= 33070
+ref.callback_query.message.photo.1.width= 320
+ref.callback_query.message.photo.1.height= 213
+ref.callback_query.message.photo.2.file_id= AgACAgQAAxkDAAIBImVliikkfzsUOI4FPQsqt0q5dF-CAAOyMRtJ5CxT8hIu-ZoJXOsBAAMCAAN4AAMzBA
+ref.callback_query.message.photo.2.file_unique_id= AQAEsjEbSeQsU30
+ref.callback_query.message.photo.2.file_size= 145052
+ref.callback_query.message.photo.2.width= 800
+ref.callback_query.message.photo.2.height= 533
+ref.callback_query.message.photo.3.file_id= AgACAgQAAxkDAAIBImVliikkfzsUOI4FPQsqt0q5dF-CAAOyMRtJ5CxT8hIu-ZoJXOsBAAMCAAN5AAMzBA
+ref.callback_query.message.photo.3.file_unique_id= AQAEsjEbSeQsU34
+ref.callback_query.message.photo.3.file_size= 303177
+ref.callback_query.message.photo.3.width= 1280
+ref.callback_query.message.photo.3.height= 853
+ref.callback_query.message.photo.4.file_id= AgACAgQAAxkDAAIBImVliikkfzsUOI4FPQsqt0q5dF-CAAOyMRtJ5CxT8hIu-ZoJXOsBAAMCAAN3AAMzBA
+ref.callback_query.message.photo.4.file_unique_id= AQAEsjEbSeQsU3w
+ref.callback_query.message.photo.4.file_size= 308284
+ref.callback_query.message.photo.4.width= 1440
+ref.callback_query.message.photo.4.height= 960
+ref.callback_query.message.caption= sasdas
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= -
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= minus1
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= 2
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= clickss
+ref.callback_query.message.reply_markup.inline_keyboard.0.2.text= +
+ref.callback_query.message.reply_markup.inline_keyboard.0.2.callback_data= plus1
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= 📥 Savat
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= karzina1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= plus1
+
+
+[ref]
+ref.message_id= 290
+ref.caption= sasdas
+ref.reply_markup= {"inline_keyboard":[[{"text":"-","callback_data":"minus1"},{"text":2,"callback_data":"clickss"},{"text":"+","callback_data":"plus1"}],[{"text":"\ud83d\udce5 Savat","callback_data":"karzina1"}]]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(186): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(30): Controller->counter()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 11:53:57  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		429
+description:		Too Many Requests: retry after 1
+parameters:		Array
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309669
+ref.message.message_id= 302
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701158222
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.url= https://b843-178-218-201-167.ngrok-free.app/index.php
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(768): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(8): Telegram->setWebhook()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 11:53:59  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		429
+description:		Too Many Requests: retry after 1
+parameters:		Array
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309671
+ref.message.message_id= 304
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701161583
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.url= https://b843-178-218-201-167.ngrok-free.app/index.php
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(768): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(8): Telegram->setWebhook()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:04:58  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to delete not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309693
+ref.message.message_id= 358
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701162297
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.message_id= 357
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(153): Telegram->deleteMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:12:42  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309697
+ref.message.message_id= 370
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701162761
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.message_id= 370
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(153): Telegram->sendMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:17:48  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat identifier is not specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309703
+ref.message.message_id= 388
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701163066
+ref.message.text= 📥 Savat
+
+
+[ref]
+ref.chat_id= 
+ref.message_id.ok= true
+ref.message_id.result.message_id= 389
+ref.message_id.result.from.id= 6895971365
+ref.message_id.result.from.is_bot= true
+ref.message_id.result.from.first_name= shopBot
+ref.message_id.result.from.username= shop_oline_bot
+ref.message_id.result.chat.id= 973866955
+ref.message_id.result.chat.first_name= Asad
+ref.message_id.result.chat.username= abduvaliyev_asad_07_03
+ref.message_id.result.chat.type= private
+ref.message_id.result.date= 1701163067
+ref.message_id.result.text= Mahsulot 1
+ref.message_id.result.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.message_id.result.reply_markup.inline_keyboard.0.0.callback_data= edit1
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(226): Telegram->deleteMessage()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(128): Controller->karzina()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 12:18:19  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message identifier is not specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309705
+ref.message.message_id= 395
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701163097
+ref.message.text= 📥 Savat
+
+
+[ref]
+ref.message_id.ok= true
+ref.message_id.result.message_id= 396
+ref.message_id.result.from.id= 6895971365
+ref.message_id.result.from.is_bot= true
+ref.message_id.result.from.first_name= shopBot
+ref.message_id.result.from.username= shop_oline_bot
+ref.message_id.result.chat.id= 973866955
+ref.message_id.result.chat.first_name= Asad
+ref.message_id.result.chat.username= abduvaliyev_asad_07_03
+ref.message_id.result.chat.type= private
+ref.message_id.result.date= 1701163098
+ref.message_id.result.text= Mahsulot 1
+ref.message_id.result.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.message_id.result.reply_markup.inline_keyboard.0.0.callback_data= edit1
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(226): Telegram->deleteMessage()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(128): Controller->karzina()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 12:22:59  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message identifier is not specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309708
+ref.message.message_id= 405
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701163378
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.message_id= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(153): Telegram->deleteMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:23:11  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message identifier is not specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309710
+ref.message.message_id= 412
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701163387
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.message_id= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(153): Telegram->deleteMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:23:52  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message identifier is not specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309712
+ref.message.message_id= 419
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701163430
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.message_id= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(153): Telegram->deleteMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:28:52  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to delete not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309723
+ref.message.message_id= 457
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701163732
+ref.message.text= 📥 Savat
+
+
+[ref]
+ref.message_id= 456
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(126): Telegram->deleteMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:29:23  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to delete not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309728
+ref.message.message_id= 472
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701163763
+ref.message.text= 📥 Savat
+
+
+[ref]
+ref.message_id= 471
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(126): Telegram->deleteMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:31:03  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to delete not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309737
+ref.message.message_id= 489
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701163862
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.message_id= 486
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(149): Telegram->deleteMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:31:04  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to delete not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309737
+ref.message.message_id= 489
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701163862
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.message_id= 488
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(153): Telegram->deleteMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:31:46  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to delete not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309741
+ref.message.message_id= 501
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701163905
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.message_id= 497
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(149): Telegram->deleteMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:39:00  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309751
+ref.message.message_id= 531
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701164340
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(164): Telegram->sendMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:39:11  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309753
+ref.message.message_id= 537
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701164350
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(164): Telegram->sendMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:39:52  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309755
+ref.message.message_id= 543
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701164391
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(164): Telegram->sendMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:40:03  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309757
+ref.message.message_id= 549
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701164402
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(164): Telegram->sendMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:40:13  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309759
+ref.message.message_id= 555
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701164412
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(164): Telegram->sendMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:40:21  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309761
+ref.message.message_id= 561
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701164420
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(164): Telegram->sendMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:43:28  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309763
+ref.message.message_id= 567
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701164607
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(164): Telegram->sendMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:43:39  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309765
+ref.message.message_id= 573
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701164618
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(164): Telegram->sendMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 12:45:02  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309768
+ref.message.message_id= 580
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701164701
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(164): Telegram->sendMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 14:11:28  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		429
+description:		Too Many Requests: retry after 1
+parameters:		Array
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309801
+ref.message.message_id= 641
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= -991150848
+ref.message.chat.title= asadGr
+ref.message.chat.type= group
+ref.message.chat.all_members_are_administrators= true
+ref.message.date= 1701169887
+ref.message.new_chat_participant.id= 6895971365
+ref.message.new_chat_participant.is_bot= true
+ref.message.new_chat_participant.first_name= shopBot
+ref.message.new_chat_participant.username= shop_oline_bot
+ref.message.new_chat_member.id= 6895971365
+ref.message.new_chat_member.is_bot= true
+ref.message.new_chat_member.first_name= shopBot
+ref.message.new_chat_member.username= shop_oline_bot
+ref.message.new_chat_members.0.id= 6895971365
+ref.message.new_chat_members.0.is_bot= true
+ref.message.new_chat_members.0.first_name= shopBot
+ref.message.new_chat_members.0.username= shop_oline_bot
+
+
+[ref]
+ref.url= https://b843-178-218-201-167.ngrok-free.app/index.php
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(768): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(10): Telegram->setWebhook()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 14:29:00  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309820
+ref.message.message_id= 694
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701170939
+ref.message.text= ✅ Tasdiqlash
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"Home","request_contact":false,"request_location":false}]],"one_time_keyboard":false,"resize_keyboard":true,"selective":true}
+ref.text= 
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(348): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(302): Controller->sendTextWithKeyboard()
+#5 C:\Users\User\Desktop\bot\online_bot\index.php(214): Controller->end()
+#6 {main}
+
+============[Date]============
+[ 2023-11-28 15:48:24  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309883
+ref.callback_query.id= 4182726724252557787
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 833
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701173281
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 833
+ref.text= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(687): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(380): Telegram->editMessageText()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 15:48:38  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to delete not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309884
+ref.message.message_id= 835
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701175717
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.message_id= 833
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(179): Telegram->deleteMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 15:50:41  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309886
+ref.callback_query.id= 4182726726514617577
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 839
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701175722
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 839
+ref.text= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(687): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(385): Telegram->editMessageText()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 15:51:02  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309887
+ref.callback_query.id= 4182726726004094353
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 839
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701175722
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 839
+ref.text= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(687): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(385): Telegram->editMessageText()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 15:51:54  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309888
+ref.callback_query.id= 4182726725787329114
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 839
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701175722
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 839
+ref.text= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(687): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(388): Telegram->editMessageText()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 15:52:12  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309889
+ref.callback_query.id= 4182726724638331917
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 839
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701175722
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 839
+ref.text= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(687): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(388): Telegram->editMessageText()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 15:53:51  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309890
+ref.callback_query.id= 4182726723656333322
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 839
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701175722
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 839
+ref.text= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(687): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(388): Telegram->editMessageText()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(46): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 15:54:28  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309891
+ref.callback_query.id= 4182726723715419496
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 839
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701175722
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 839
+ref.text= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(687): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(388): Telegram->editMessageText()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(46): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 15:54:52  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309894
+ref.callback_query.id= 4182726725313188106
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 848
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701176086
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 848
+ref.text= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(687): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(392): Telegram->editMessageText()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(46): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 15:55:45  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309895
+ref.callback_query.id= 4182726725309570272
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 848
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701176086
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 848
+ref.text= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(687): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(388): Telegram->editMessageText()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(46): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 15:57:16  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309896
+ref.callback_query.id= 4182726725380696854
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 848
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701176086
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 848
+ref.text= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(687): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(388): Telegram->editMessageText()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(46): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:02:22  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309897
+ref.callback_query.id= 4182726722867372366
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 848
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701176086
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 848
+ref.caption= sasdas
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(388): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(46): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:03:35  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309898
+ref.callback_query.id= 4182726726657489401
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 848
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701176086
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 848
+ref.caption= sasdas
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(392): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(46): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:04:33  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309899
+ref.callback_query.id= 4182726723374447873
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 848
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701176086
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 848
+ref.caption= sasdas
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(392): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(46): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:05:10  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309900
+ref.callback_query.id= 4182726724797069677
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 848
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701176086
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 848
+ref.caption= sasdas
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(392): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(46): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:07:10  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309903
+ref.callback_query.id= 4182726723543336979
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 867
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701176728
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 867
+ref.caption= sasdas
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(392): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(46): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:07:50  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309904
+ref.callback_query.id= 4182726726601642569
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 867
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701176728
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 867
+ref.caption= sasdas
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(392): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(46): Controller->edit_prodcut()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:10:42  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309905
+ref.callback_query.id= 4182726723209902161
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 867
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701176728
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 867
+ref.caption= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(377): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_product()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:18:17  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309908
+ref.callback_query.id= 4182726724960856315
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 876
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701177450
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 876
+ref.caption= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(360): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_product()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:18:18  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: field "inline_keyboard" of the InlineKeyboardMarkup must be an Array of Arrays
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309908
+ref.callback_query.id= 4182726724960856315
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 876
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701177450
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 876
+ref.caption= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(391): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_product()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:26:00  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no caption in the message to edit
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309909
+ref.callback_query.id= 4182726725079129684
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 876
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701177450
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 876
+ref.caption= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(382): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_product()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:26:33  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no caption in the message to edit
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309910
+ref.callback_query.id= 4182726723777209195
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 876
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701177450
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 876
+ref.caption= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(362): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_product()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:26:33  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no caption in the message to edit
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309910
+ref.callback_query.id= 4182726723777209195
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 876
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701177450
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 876
+ref.caption= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(398): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_product()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:27:26  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no caption in the message to edit
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309911
+ref.callback_query.id= 4182726724963509142
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 876
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701177450
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 876
+ref.caption= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(362): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_product()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:27:30  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no caption in the message to edit
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309911
+ref.callback_query.id= 4182726724963509142
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 876
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701177450
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 876
+ref.caption= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(398): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_product()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:28:21  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no caption in the message to edit
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309912
+ref.callback_query.id= 4182726722808831602
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 876
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701177450
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 876
+ref.caption= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(398): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_product()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:28:41  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no caption in the message to edit
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309913
+ref.callback_query.id= 4182726725563452967
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 876
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701177450
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 876
+ref.caption= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(398): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_product()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:30:17  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309914
+ref.callback_query.id= 4182726722995784527
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 876
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701177450
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 876
+ref.caption= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(687): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(398): Telegram->editMessageText()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_product()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:35:00  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to delete not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309918
+ref.message.message_id= 878
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701178499
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.message_id= 876
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(178): Telegram->deleteMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-28 16:35:08  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no caption in the message to edit
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309920
+ref.callback_query.id= 4182726726264728142
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 882
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701178505
+ref.callback_query.message.text= Mahsulot 1
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= ✏️ O`zgarish kiritish
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= edit1
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= edit1
+
+
+[ref]
+ref.message_id= 882
+ref.caption= Mahsulot 1
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u274c","callback_data":"delete"},{"text":1,"callback_data":"click"},{"text":"+","callback_data":"plus1"}]]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(697): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(362): Telegram->editMessageCaption()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(42): Controller->edit_product()
+#5 {main}
+
+============[Date]============
+[ 2023-11-28 16:54:08  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to delete not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309954
+ref.message.message_id= 923
+ref.message.from.id= 316340903
+ref.message.from.is_bot= false
+ref.message.from.first_name= Ibrohimxo'ja
+ref.message.from.username= ibrohimbobojonov
+ref.message.from.language_code= ru
+ref.message.chat.id= 316340903
+ref.message.chat.first_name= Ibrohimxo'ja
+ref.message.chat.username= ibrohimbobojonov
+ref.message.chat.type= private
+ref.message.date= 1701179646
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.message_id= 920
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(163): Telegram->deleteMessage()
+#4 {main}
+

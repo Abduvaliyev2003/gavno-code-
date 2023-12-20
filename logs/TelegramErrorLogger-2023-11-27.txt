@@ -1,0 +1,326 @@
+============[Date]============
+[ 2023-11-27 22:03:24  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse inline keyboard button: Field "callback_data" must be of type String
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309570
+ref.message.message_id= 132
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701111801
+ref.message.text= Category 1
+
+
+[ref]
+ref.photo= https://kartinki.pics/uploads/posts/2022-03/1647389533_3-kartinkin-net-p-stroitelnie-materiali-kartinki-3.jpg
+ref.caption= Category 1
+ref.reply_markup= {"inline_keyboard":[[{"text":"Salom","callback_data":"Salom"},{"text":"qaleysan","callback_data":"qaleysan"}],[{"text":"Nima","callback_data":["Salom","qaleysan","Nima"]}]]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(213): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(104): Telegram->sendPhoto()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(86): Controller->category_products()
+#5 {main}
+
+============[Date]============
+[ 2023-11-27 22:03:31  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse inline keyboard button: Field "callback_data" must be of type String
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309571
+ref.message.message_id= 133
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701111809
+ref.message.text= Category 3
+
+
+[ref]
+ref.photo= https://kartinki.pics/uploads/posts/2022-03/1647389533_3-kartinkin-net-p-stroitelnie-materiali-kartinki-3.jpg
+ref.caption= Category 3
+ref.reply_markup= {"inline_keyboard":[[{"text":"Salom","callback_data":"Salom"},{"text":"qaleysan","callback_data":"qaleysan"}],[{"text":"Nima","callback_data":["Salom","qaleysan","Nima"]}]]}
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(213): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(104): Telegram->sendPhoto()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(86): Controller->category_products()
+#5 {main}
+
+============[Date]============
+[ 2023-11-27 22:13:29  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309577
+ref.message.message_id= 143
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701112405
+ref.message.text= Category 2
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\ud83d\udd19 Orqaga","request_contact":false,"request_location":false}]],"one_time_keyboard":false,"resize_keyboard":true,"selective":true}
+ref.text= 
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(141): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(111): Controller->sendTextWithKeyboard()
+#5 C:\Users\User\Desktop\bot\online_bot\index.php(86): Controller->category_products()
+#6 {main}
+
+============[Date]============
+[ 2023-11-27 23:03:56  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message identifier is not specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309593
+ref.callback_query.id= 4182726725993897511
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 173
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701115433
+ref.callback_query.message.photo.0.file_id= AgACAgQAAxkDAAOtZWT2KTgQjB9Pwyfw3qfPkKaqxgsAA7IxG0nkLFPyEi75mglc6wEAAwIAA3MAAzME
+ref.callback_query.message.photo.0.file_unique_id= AQAEsjEbSeQsU3g
+ref.callback_query.message.photo.0.file_size= 2017
+ref.callback_query.message.photo.0.width= 90
+ref.callback_query.message.photo.0.height= 60
+ref.callback_query.message.photo.1.file_id= AgACAgQAAxkDAAOtZWT2KTgQjB9Pwyfw3qfPkKaqxgsAA7IxG0nkLFPyEi75mglc6wEAAwIAA20AAzME
+ref.callback_query.message.photo.1.file_unique_id= AQAEsjEbSeQsU3I
+ref.callback_query.message.photo.1.file_size= 33070
+ref.callback_query.message.photo.1.width= 320
+ref.callback_query.message.photo.1.height= 213
+ref.callback_query.message.photo.2.file_id= AgACAgQAAxkDAAOtZWT2KTgQjB9Pwyfw3qfPkKaqxgsAA7IxG0nkLFPyEi75mglc6wEAAwIAA3gAAzME
+ref.callback_query.message.photo.2.file_unique_id= AQAEsjEbSeQsU30
+ref.callback_query.message.photo.2.file_size= 145052
+ref.callback_query.message.photo.2.width= 800
+ref.callback_query.message.photo.2.height= 533
+ref.callback_query.message.photo.3.file_id= AgACAgQAAxkDAAOtZWT2KTgQjB9Pwyfw3qfPkKaqxgsAA7IxG0nkLFPyEi75mglc6wEAAwIAA3kAAzME
+ref.callback_query.message.photo.3.file_unique_id= AQAEsjEbSeQsU34
+ref.callback_query.message.photo.3.file_size= 303177
+ref.callback_query.message.photo.3.width= 1280
+ref.callback_query.message.photo.3.height= 853
+ref.callback_query.message.photo.4.file_id= AgACAgQAAxkDAAOtZWT2KTgQjB9Pwyfw3qfPkKaqxgsAA7IxG0nkLFPyEi75mglc6wEAAwIAA3cAAzME
+ref.callback_query.message.photo.4.file_unique_id= AQAEsjEbSeQsU3w
+ref.callback_query.message.photo.4.file_size= 308284
+ref.callback_query.message.photo.4.width= 1440
+ref.callback_query.message.photo.4.height= 960
+ref.callback_query.message.caption= Category 2
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= Salom
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= salom
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= qaleysan
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= qaleysan
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= Nima
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= nima
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= nima
+
+
+[ref]
+ref.message_id= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(119): Telegram->deleteMessage()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(25): Controller->category_inline()
+#5 {main}
+
+============[Date]============
+[ 2023-11-27 23:04:07  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message identifier is not specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309595
+ref.message.message_id= 176
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701115446
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.message_id= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(108): Telegram->deleteMessage()
+#4 {main}
+
+============[Date]============
+[ 2023-11-27 23:11:39  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message identifier is not specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309609
+ref.callback_query.id= 4182726725626461784
+ref.callback_query.from.id= 973866955
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Asad
+ref.callback_query.from.username= abduvaliyev_asad_07_03
+ref.callback_query.from.language_code= en
+ref.callback_query.message.message_id= 211
+ref.callback_query.message.from.id= 6895971365
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= shopBot
+ref.callback_query.message.from.username= shop_oline_bot
+ref.callback_query.message.chat.id= 973866955
+ref.callback_query.message.chat.first_name= Asad
+ref.callback_query.message.chat.username= abduvaliyev_asad_07_03
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1701115850
+ref.callback_query.message.photo.0.file_id= AgACAgQAAxkDAAPTZWT3yva0N-z2DNdB2jkPmqM87c4AA7IxG0nkLFPyEi75mglc6wEAAwIAA3MAAzME
+ref.callback_query.message.photo.0.file_unique_id= AQAEsjEbSeQsU3g
+ref.callback_query.message.photo.0.file_size= 2017
+ref.callback_query.message.photo.0.width= 90
+ref.callback_query.message.photo.0.height= 60
+ref.callback_query.message.photo.1.file_id= AgACAgQAAxkDAAPTZWT3yva0N-z2DNdB2jkPmqM87c4AA7IxG0nkLFPyEi75mglc6wEAAwIAA20AAzME
+ref.callback_query.message.photo.1.file_unique_id= AQAEsjEbSeQsU3I
+ref.callback_query.message.photo.1.file_size= 33070
+ref.callback_query.message.photo.1.width= 320
+ref.callback_query.message.photo.1.height= 213
+ref.callback_query.message.photo.2.file_id= AgACAgQAAxkDAAPTZWT3yva0N-z2DNdB2jkPmqM87c4AA7IxG0nkLFPyEi75mglc6wEAAwIAA3gAAzME
+ref.callback_query.message.photo.2.file_unique_id= AQAEsjEbSeQsU30
+ref.callback_query.message.photo.2.file_size= 145052
+ref.callback_query.message.photo.2.width= 800
+ref.callback_query.message.photo.2.height= 533
+ref.callback_query.message.photo.3.file_id= AgACAgQAAxkDAAPTZWT3yva0N-z2DNdB2jkPmqM87c4AA7IxG0nkLFPyEi75mglc6wEAAwIAA3kAAzME
+ref.callback_query.message.photo.3.file_unique_id= AQAEsjEbSeQsU34
+ref.callback_query.message.photo.3.file_size= 303177
+ref.callback_query.message.photo.3.width= 1280
+ref.callback_query.message.photo.3.height= 853
+ref.callback_query.message.photo.4.file_id= AgACAgQAAxkDAAPTZWT3yva0N-z2DNdB2jkPmqM87c4AA7IxG0nkLFPyEi75mglc6wEAAwIAA3cAAzME
+ref.callback_query.message.photo.4.file_unique_id= AQAEsjEbSeQsU3w
+ref.callback_query.message.photo.4.file_size= 308284
+ref.callback_query.message.photo.4.width= 1440
+ref.callback_query.message.photo.4.height= 960
+ref.callback_query.message.caption= Category 2
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= Salom
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= salom
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.text= qaleysan
+ref.callback_query.message.reply_markup.inline_keyboard.0.1.callback_data= qaleysan
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.text= Nima
+ref.callback_query.message.reply_markup.inline_keyboard.1.0.callback_data= nima
+ref.callback_query.chat_instance= 3588136179577124994
+ref.callback_query.data= qaleysan
+
+
+[ref]
+ref.message_id= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\Controller\Controller.php(120): Telegram->deleteMessage()
+#4 C:\Users\User\Desktop\bot\online_bot\index.php(25): Controller->category_inline()
+#5 {main}
+
+============[Date]============
+[ 2023-11-27 23:13:28  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message identifier is not specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 710309611
+ref.message.message_id= 214
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= en
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1701116006
+ref.message.text= 🔙 Orqaga
+
+
+[ref]
+ref.message_id= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\online_bot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\online_bot\Telegram.php(1649): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\online_bot\index.php(113): Telegram->deleteMessage()
+#4 {main}
+
