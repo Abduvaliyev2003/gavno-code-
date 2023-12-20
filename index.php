@@ -1,8 +1,5 @@
 <?php
 
-
-
-
 require_once './Telegram.php';
 require_once './Controller/Controller.php';
 require_once './FuncPage.php';
@@ -21,7 +18,6 @@ $productInfo = $_SESSION['karzina_page'];
 
 if($callback_query !== null && $callback_query != '')
 {
-    
     switch(getHomePage($chat_id)) {
         case 'category_products':
             $controller->category_inline($callback_data);
@@ -42,7 +38,6 @@ if($callback_query !== null && $callback_query != '')
                 case strpos($callback_data, 'edit') !== false || strpos($callback_data, 'plus') !== false || strpos($callback_data, 'minus') !== false || strpos($callback_data, 'delete') !== false:
                     $controller->edit_product($callback_data);
                     break;   
-              
             }
             break; 
     }
@@ -51,7 +46,6 @@ elseif('/start' == $text){
   $controller->register();
 } elseif($text == '/menu')
 {  
-    
     $controller->menu();
 } else {
    
